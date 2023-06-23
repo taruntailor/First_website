@@ -1,0 +1,111 @@
+@media (min-width:768px) {
+    .container{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    /* header value inherit from min width 576px  */
+
+    .home-page{
+        height: auto;
+        max-width: 100%;
+       
+    }
+    .home-page .home-text {
+        color: white;
+        font-size: 30px;
+        width: 100%;
+    }
+    .home-page .home-text h1{
+        font-size:40px ;
+    }
+    .home-page .home-text p{
+        font-size: 20px;
+        line-height: 22px;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    /* ==================== */
+    .team .grid-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+     }
+     .team .grid-box .grid1{
+        grid-row: 2 / span 1;
+        grid-column: 1/span 2;
+        width: 50%;
+        margin: auto;
+     }
+     /* ================================= */
+     .shoots .main-shoots{
+        display: flex;
+        flex-direction: column;
+       }
+       /* ================================= */
+
+       .wildlive .box{
+        display: flex;
+        flex-direction: column;
+    
+       }
+
+       /* ======================== */
+
+       .wildlive .box{
+        display: flex;
+        flex-direction: column;
+    
+       }
+
+       /* ================================== */
+
+       .help .main-help{
+        display: flex;
+        flex-direction: column;
+        }
+        
+
+        /* ============================= */
+
+        .forest .main-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+           
+        }
+        .forest .main-grid .grid1{
+            grid-row:unset;
+            grid-column: unset;
+            width: unset;
+            margin: unset;
+        }
+
+
+        /* ===================================== */
+
+        .blog .main-grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            
+        
+        }
+
+        .review .review_flex{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer .main-grid{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
+        }
+
+        .footer .main-grid .grid{
+            grid-row: 2/ span 1;
+            grid-column: 1/span 2;
+            width: 50%;
+            margin: auto;
+        }
+        
+}
